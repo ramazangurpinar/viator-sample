@@ -1,0 +1,66 @@
+/* Container için (ul) */
+.event-list {
+  display: flex;
+  flex-wrap: wrap;  /* Kartlar sığmadığında alt satıra geçsin */
+  gap: 16px;        /* Kartlar arası boşluk */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* Kartların genişliği ve diğer stiller */
+.event-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  flex: 1 1 calc(33.33% - 16px); /* 3 kart yan yana (gap hesaba katıldı) */
+  box-sizing: border-box;
+  cursor: pointer;
+  min-width: 280px; /* Küçük ekranlarda daralmasını önlemek için */
+}
+
+.event-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+}
+
+.event-title {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+  color: #2c3e50;
+}
+
+.event-info,
+.event-location,
+.event-price {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 4px 0;
+}
+
+.event-price {
+  font-weight: 600;
+  color: #27ae60;
+}
+
+
+.details-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #007bff; /* mavi */
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.details-button:hover {
+  background-color: #0056b3;
+}

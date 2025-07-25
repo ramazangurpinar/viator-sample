@@ -1,0 +1,35 @@
+type Query {
+  searchEvents(
+    eventName: String,
+    eventType: String,
+    eventDate: String,
+    eventTime: String,
+    maxParticipants: Int,
+    ticketPrice: Float,
+    organizer: String,
+    description: String,
+    contactEmail: String,
+    country: String,
+    city: String,
+    district: String
+  ): [Event]
+  
+  eventById(id: ID!): Event
+}
+
+type Event {
+  id: ID!
+  eventName: String
+  eventType: String
+  eventDate: String
+  eventTime: String
+  maxParticipants: Int
+  ticketPrice: Float
+  organizer: String
+  description: String
+  contactEmail: String
+  country: String
+  city: String
+  district: String
+}
+
