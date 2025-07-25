@@ -31,7 +31,7 @@ The main goal was to replicate a realistic booking system using the **same or si
 
 ### Backend (Java + Spring Boot)
 - Spring Boot
-- GraphQL with `graphql-java`
+- GraphQL
 - Spring Web (REST endpoints)
 - Spring Data JPA
 - PostgreSQL 17
@@ -55,10 +55,3 @@ The main goal was to replicate a realistic booking system using the **same or si
 
 ---
 
-## 🚀 Running the Project Locally
-
-### Prerequisites
-- Java
-- PostgreSQL
-- React
-- GraphQL
