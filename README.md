@@ -45,13 +45,13 @@ The main goal was to replicate a realistic booking system using the **same or si
 ## 📸 Screenshots
 
 ### 🌴 Landing Page
-![Landing](./screenshots/landing.png)
+![Landing](./screenshots/landing.jpg)
 
 ### 🎫 Search Results Page
-![Search](./screenshots/search.png)
+![Search](./screenshots/search.jpg)
 
 ### 📄 Event Details Page
-![Detail](./screenshots/detail.png)
+![Detail](./screenshots/detail.jpg)
 
 ---
 
