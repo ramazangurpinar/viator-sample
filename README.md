@@ -6,20 +6,20 @@ The main goal was to replicate a realistic booking system using the **same or si
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔎 **Search Events** by city, type, and date
-- 📅 Filter results using a date picker
-- 🎟️ View event **details**, including location, price, organizer, and participant count
-- ✅ **Buy** or simulate booking an event
-- 🧑‍🤝‍🧑 Optionally **assign events to people as gifts**
-- ⚙️ Uses **GraphQL** for querying event data
-- 🌐 Simple **REST API** for person and gifting features
-- 🧠 Dummy events were generated using **AI tools** and stored in **PostgreSQL**
+-  **Search Events** by city, type, and date
+-  Filter results using a date picker
+-  View event **details**, including location, price, organizer, and participant count
+-  **Buy** or simulate booking an event
+-  Optionally **assign events to people as gifts**
+-  Uses **GraphQL** for querying event data
+-  Simple **REST API** for person and gifting features
+-  Dummy events were generated using **AI tools** and stored in **PostgreSQL**
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 ### Frontend (React + TypeScript)
 - React with TypeScript
@@ -42,15 +42,15 @@ The main goal was to replicate a realistic booking system using the **same or si
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-### 🌴 Landing Page
+### Landing Page
 ![Landing](./screenshots/landing.jpg)
 
-### 🎫 Search Results Page
+### Search Results Page
 ![Search](./screenshots/search.jpg)
 
-### 📄 Event Details Page
+### Event Details Page
 ![Detail](./screenshots/detail.jpg)
 
 ---
