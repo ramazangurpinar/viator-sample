@@ -34,7 +34,6 @@ The main goal was to replicate a realistic booking system using the **same or si
 - GraphQL
 - Spring Web (REST endpoints)
 - Spring Data JPA
-- PostgreSQL 17
 - Maven
 
 ### Database
